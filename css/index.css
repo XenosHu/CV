@@ -1,0 +1,49 @@
+.content {
+    margin: auto;
+    width: 85%;
+    /* background-color: aqua; */
+}
+
+.avatar {
+    width: 20%;
+    float: left;
+}
+
+.basic_info {
+    /* float: left; */
+    /* background-color: blueviolet; */
+    /* width: 70%; */
+    /* display: inline-block;
+    vertical-align: middle; */
+    /* align-items: center; */
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+.basic_info h2 p {
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dur {
+    margin: 0;
+    float: right;
+}
+
+.skill {
+    float: left;
+    margin-right: 8%;
+    width: 25%;
+}
+
+.main {
+    clear: both;
+}
